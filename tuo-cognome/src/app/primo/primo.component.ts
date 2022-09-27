@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./primo.component.css']
 })
 export class PrimoComponent implements OnInit {
-
-  constructor() { }
+  name: string 
+  constructor() {this.name = "secondo" }
 
   ngOnInit(): void {
   }
