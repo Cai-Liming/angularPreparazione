@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input ,OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-container',
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ContainerComponent implements OnInit {
   cars : string [];
   constructor() {
-    this.cars =['1','2','3','4','5','6','7','8','9','10']
+    this.cars =['Ruspa', 'Muletto', 'Escavatore', 'Gru', 'Autocarro', 'Dump', 'Bulldozer', 'Rullo', 'Frese', 'Finitrici']
    }
 
   ngOnInit(): void {
